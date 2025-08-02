@@ -9,7 +9,7 @@ export default function SideNave(){
                 <WalletIcon className='text-white w-12' />
                 <span className={`text-white p-2 font-bold text-3xl ${lusitana.className}`}>Finovia</span>
             </div>
-            <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+            <div className="flex grow flex-row justify-between space md:justify-start md:flex-col md:space-x-0 md:space-y-1">
                 <Links />
                 <div className="hidden h-auto w-full rounded-md bg-gray-50 md:block "></div>
                     <form>
